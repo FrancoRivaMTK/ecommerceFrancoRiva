@@ -4,9 +4,10 @@ import logo from "../assets/img/stagLogo.png";
 
 const NavBar = () => {
   const categories = [
-    { to: "/category/rodado12", label: "Rodado 12" },
-    { to: "/category/rodado16", label: "Rodado 16" },
-    { to: "/category/rodado20", label: "Rodado 20" },
+    { to: "/item/2", label: "Rodado 12" },
+    { to: "/item/1", label: "Rodado 16" },
+    { to: "/item/3", label: "Rodado 20" },
+    { to: "/item/4", label: "BMX" },
   ];
 
   return (
